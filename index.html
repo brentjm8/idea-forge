@@ -25,6 +25,29 @@
 
 
 <p id="status" class="status"></p>
+<form
+  name="idea-signups"
+  method="POST"
+  data-netlify="true"
+  class="signup"
+>
+  <input type="hidden" name="form-name" value="idea-signups" />
+
+  <p class="signup-text">
+    Want 25 curated ideas like this? Drop your email.
+  </p>
+
+  <div class="signup-row">
+    <input
+      type="email"
+      name="email"
+      placeholder="you@example.com"
+      required
+    />
+    <button type="submit">Get Ideas</button>
+  </div>
+</form>
+
 <section class="favorites">
   <div class="favorites-header">
     <h2>Favorites</h2>
